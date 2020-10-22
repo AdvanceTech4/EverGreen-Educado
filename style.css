@@ -13,7 +13,29 @@ body {
   font-weight: 300;
   font-size: 1rem; }
 
-
+.text
+{
+    margin-left: 250px;
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 99px;
+    color: #ffc107;
+    font-family: "Arial Black", Gadget, sans-serif;
+    text-shadow: 0px 0px 0 rgb(241,179,0),
+                 1px 1px 0 rgb(227,165,0),
+                 2px 2px 0 rgb(212,150,0),
+                 3px 3px 0 rgb(198,136,0),
+                 4px 4px 0 rgb(184,122,0),
+                 5px 5px 0 rgb(170,108,0),
+                 6px 6px 0 rgb(156,94,0),
+                 7px 7px 0 rgb(141,79,0),
+                 8px 8px 0 rgb(127,65,0),
+                 9px 9px 0 rgb(113,51,0),
+                 10px 10px  0 rgb(99,37,0),
+                 11px 11px 10px rgba(0,0,0,0.56),
+                 11px 11px 1px rgba(0,0,0,0.5),
+                 0px 0px 10px rgba(0,0,0,.2);
+}
 
 
 h1, h2, h3, h4, h5,
@@ -51,29 +73,7 @@ h1, h2, h3, h4, h5,
     font-size: 18px;
     color: #fd4d40; }
 
-.text
-{
-    margin-left: 250px;
-    position: absolute;
-    text-transform: uppercase;
-    font-size: 99px;
-    color: #ffc107;
-    font-family: "Arial Black", Gadget, sans-serif;
-    text-shadow: 0px 0px 0 rgb(241,179,0),
-                 1px 1px 0 rgb(227,165,0),
-                 2px 2px 0 rgb(212,150,0),
-                 3px 3px 0 rgb(198,136,0),
-                 4px 4px 0 rgb(184,122,0),
-                 5px 5px 0 rgb(170,108,0),
-                 6px 6px 0 rgb(156,94,0),
-                 7px 7px 0 rgb(141,79,0),
-                 8px 8px 0 rgb(127,65,0),
-                 9px 9px 0 rgb(113,51,0),
-                 10px 10px  0 rgb(99,37,0),
-                 11px 11px 10px rgba(0,0,0,0.56),
-                 11px 11px 1px rgba(0,0,0,0.5),
-                 0px 0px 10px rgba(0,0,0,.2);
-}
+
 
 
 
