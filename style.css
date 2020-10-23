@@ -58,7 +58,7 @@ body {
 }
 .menu ul li
 {
-    width: 150px;
+    width: 130px;
     margin: 20px;
     padding: 20px;
 }
@@ -70,7 +70,7 @@ body {
 .a1, .menu ul li:hover
 {
     background: #000000 ;
-    border-radius: 10px;
+    border-radius: 3px;
 }
 .sub_menu
 {
@@ -108,12 +108,12 @@ body {
 .a2, .menu ul li:hover
 {
     background: #000000 ;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 .a3, .menu ul li:hover
 {
     background: #000000 ;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 .a4, .menu ul li:hover
 {
