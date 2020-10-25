@@ -58,8 +58,8 @@ body {
 }
 .menu ul li
 {
-    width: 150px;
-    margin: 20px;
+    width: 100px;
+    margin: 10px;
     padding: 20px;
 }
 .menu ul li a
@@ -90,7 +90,7 @@ body {
 }
 .menu ul li:hover .sub_menu ul li
 {
-    width: 130px;
+    width: 90px;
     padding: 10px;
     border-bottom: 1px dotted #fff;
     background: transparent;
@@ -142,7 +142,7 @@ body {
 {
     position: absolute;
     display: block;
-    margin-top: -40px;
+    margin-top: -20px;
     margin-left: 120px;
 }
 
