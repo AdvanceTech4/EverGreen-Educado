@@ -13,89 +13,87 @@ body {
   font-weight: 300;
   font-size: 1rem;
   bacground-size: cover;
-  background-poistion: center; }
-
- /* .text
-{
-    margin-left: 250px;
-    position: absolute;
-    text-transform: uppercase;
-    font-size: 150%;
-    color: #ffc107;
-    font-family: "Arial Black", Gadget, sans-serif;
-    text-shadow: 0px 0px 0 rgb(241,179,0),
-                 1px 1px 0 rgb(227,165,0),
-                 2px 2px 0 rgb(212,150,0),
-                 3px 3px 0 rgb(198,136,0),
-                 4px 4px 0 rgb(184,122,0),
-                 5px 5px 0 rgb(170,108,0),
-                 6px 6px 0 rgb(156,94,0),
-                 7px 7px 0 rgb(141,79,0),
-                 8px 8px 0 rgb(127,65,0),
-                 9px 9px 0 rgb(113,51,0),
-                 10px 10px  0 rgb(99,37,0),
-                 11px 11px 10px rgba(0,0,0,0.56),
-                 11px 11px 1px rgba(0,0,0,0.5),
-                 0px 0px 10px rgba(0,0,0,.2);
-} */
-
+  background-poistion: center; 
+  
+  
+ }
 
 * 
 {
-    margin: 0;
-    padding: 0;
+    margin:0;
+    padding:0;
     box-sizing: border-box;
 }
 .menu
 {
     text-align: center;
+    
 }
+
 .menu ul
 {
     display: inline-flex;
     list-style: verdana;
-    color: #fff;
+    color: #39FF14;
+    font-weight:500;
 }
 .menu ul li
 {
-    width: 100px;
-    margin: 10px;
-    padding: 20px;
+    width: 140px;
+    margin: 2px;
+    padding: 10px;
+    list-style-type: none;
 }
 .menu ul li a
 {
-    text-decoration: none;
-    color: #fff;
+    text-decoration:none;
+    color:black;
+    
 }
 .a1, .menu ul li:hover
 {
-    background: #000000 ;
-    border-radius: 5px;
+    background: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 0 0 5px #03fca1;
+
 }
+.a1, .menu ul li
+{
+    box-shadow: 0 0 0 0 lightblue;
+    background: white;
+}
+
+
 .sub_menu
 {
     display: none;
+    background: transparent;
+  
 }
 .menu ul li:hover .sub_menu
 {
     display: block;
     position: absolute;
-    margin-top: 15px;
-    margin-left: -15px;
+    margin-top: 5px;
+    margin-left: -10px;
 }
 .menu ul li:hover .sub_menu ul
 {
     display: block;
     margin: 10px;
+  
 }
 .menu ul li:hover .sub_menu ul li
 {
-    width: 90px;
-    padding: 10px;
-    border-bottom: 1px dotted #fff;
-    background: transparent;
-    border-radius: 0;
+    width: 120px;
+    padding: 3px;
+   /* border-bottom: 2px dotted #fff; */
+    background: transparent; 
+    border-radius: 5px;
     text-align: left;
+
+    
+
 }
 .menu ul li:hover .sub_menu ul li:last-child
 {
@@ -103,32 +101,33 @@ body {
 }
 .menu ul li:hover .sub_menu ul li a:hover
 {
-    color: #8b0000;
+    color: #C0C0C0;
 }
 .a2, .menu ul li:hover
 {
-    background: #000000 ;
-    border-radius: 5px;
+    background: #f5f5f5 ;
+    border-radius: 10px;    
 }
+ 
 .a3, .menu ul li:hover
 {
-    background: #000000 ;
-    border-radius: 5px;
+    background: #f5f5f5 ;
+    border-radius: 10px;
 }
 .a4, .menu ul li:hover
 {
-    background: #000000 ;
-    border-radius: 5px;
+    background: #f5f5f5 ;
+    border-radius: 10px;
 }
 .a5, .menu ul li:hover
 {
-    background: #000000 ;
-    border-radius: 5px;
+    background: #f5f5f5 ;
+    border-radius: 10px;
 }
 .a6, .menu ul li:hover
 {
-    background: #000000 ;
-    border-radius: 5px;
+    background: #f5f5f5 ;
+    border-radius: 10px;
 }
 .fa-angle-right
 {
@@ -137,18 +136,19 @@ body {
 .sub_menu2
 {
     display: none;
+   
 }
 .hover_me:hover .sub_menu2
 {
     position: absolute;
     display: block;
-    margin-top: -20px;
-    margin-left: 120px;
+    margin-top: -25px;
+    margin-left: 114px;
 }
 
 h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
-  font-weight: 300;
+  font-weight: 500;
   color: #364d59; }
 
 
@@ -223,41 +223,38 @@ h1, h2, h3, h4, h5,
 
 
 
+  #myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
 
 
+.content {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  padding: 16px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.ashu, .aditya
+{
+margin:10px;
+padding:0px;
+font-size:120%;
+font-family:verdana;
+position: relative;
+  bottom: 0;
+  width: 100%;
   
-
-
-
-
-
-
+}
 
 .menu-wrap {
   padding: 10px 20px;
   background: #fff;
   border-radius: 100px; }
-
-
-
-
 
 .block-2 {
   padding: 40px;
@@ -322,7 +319,7 @@ body {
 	padding: 0;
 }
 .main {
-	max-height: 550px;;
+	max-height: 500px;;
 	background-color: #292c2f;
 	color: white;
 	font-size: 38pt;
@@ -341,7 +338,7 @@ footer{
 	text-align: left;
 	font: bold 16px sans-serif;
 
-	padding: 55px 50px;
+	padding: 25px 20px;
 	margin-top: 80px;
 }
 
