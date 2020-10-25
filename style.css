@@ -15,7 +15,7 @@ body {
   bacground-size: cover;
   background-poistion: center; }
 
-.text
+ /* .text
 {
     margin-left: 250px;
     position: absolute;
@@ -37,7 +37,7 @@ body {
                  11px 11px 10px rgba(0,0,0,0.56),
                  11px 11px 1px rgba(0,0,0,0.5),
                  0px 0px 10px rgba(0,0,0,.2);
-}
+} */
 
 
 * 
