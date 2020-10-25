@@ -4,12 +4,12 @@ body {
 	padding: 0;
 }
 .main {
-	max-height: 550px;;
+	max-height: 400px;;
 	background-color: #292c2f;
 	color: white;
 	font-size: 38pt;
 	text-align: center;
-	line-height: 550px;
+	line-height: 400px;
 }
 footer{
 	position: fixed;
