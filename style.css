@@ -18,7 +18,7 @@ body {
   
  }
 
- 
+ /* Nav Bar */
 
 * 
 {
@@ -224,7 +224,7 @@ h1, h2, h3, h4, h5,
     
 
 
-
+/* Backgroung Video */
   #myVideo {
   position: fixed;
   right: 0;
@@ -511,7 +511,7 @@ footer{
             margin-right: auto;
             margin-top: 0px;
             text-align: center;
-            overflow: hidden;
+            overflow: hidden;	
         }
        
         .image-holder
