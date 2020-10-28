@@ -329,7 +329,7 @@ body {
 	line-height: 550px;
 }
 footer{
-	position: absolute;
+	position: relative;
 	bottom: 0;
 }
 .footer-distributed{
