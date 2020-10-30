@@ -15,9 +15,17 @@ body {
   font-size: 1rem;
   bacground-size: cover;
   background-poistion: center; 
-  
-  
- }
+  }
+
+/* Name */
+.ashu
+{
+   font-family: Jazz LET, fantasy;
+   font-weight: 800;
+   font-variant: small-caps;
+   font-stretch: semi-expanded;
+}	
+	
 
  /* Nav Bar */
 
