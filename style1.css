@@ -41,6 +41,7 @@ height:250px;
 .box-sty
 {
 	display: flex;
+	justify-content: space-around;
 }
 .box:hover .box-content
 {
