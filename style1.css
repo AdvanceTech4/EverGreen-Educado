@@ -38,7 +38,10 @@ height:250px;
 	transform: rotateY(90deg);
 	transition:all 0.5s ease-in-out 0s;
 }
-
+.box-sty
+{
+	display: flex;
+}
 .box:hover .box-content
 {
 transform:rotateY(0);
@@ -56,6 +59,6 @@ transform:rotateY(0);
 	box-sizing: border-box;
 	overflow: hidden;
 	display:block;
-    margin-left:50%;
+    
 	
 }
