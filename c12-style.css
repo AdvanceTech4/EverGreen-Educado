@@ -3,17 +3,21 @@
     margin: 0;
     padding: 0;
 }
-.nom
-{
-    background-color: rgb(211, 209, 209);
-}
-.container
+
+.cont1
 {
     display: flex;
     justify-content: space-around;
     text-align: center;
     margin-top: 20px;
     /*background-color: black;*/
+}
+.cont2 
+{
+	display: flex;
+	justify-content: space-evenly;
+	text-align: center;
+    margin-top: 20px;
 }
 h3
 {
@@ -60,6 +64,18 @@ p
     margin: 1rem;
     padding: 15px;
 }
+.container4
+{
+    margin: 1rem;
+	padding: 15px;
+	margin-left: 50px;
+}
+.container5
+{
+    margin: 1rem;
+	padding: 15px;
+	margin-right: 80px;
+}
 .container1 ul li
 {
     margin-top: 20px;
@@ -71,6 +87,16 @@ p
     color: blue;
 }
 .container3 ul li
+{
+    margin-top: 20px;
+    color: blue;
+}
+.container4 ul li
+{
+    margin-top: 20px;
+    color: blue;
+}
+.container5 ul li
 {
     margin-top: 20px;
     color: blue;
