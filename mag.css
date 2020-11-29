@@ -1,0 +1,83 @@
+
+/* Slider*/
+
+.abc
+{
+	text-shadow: 0px 0px 0 rgb(224, 243, 119),
+                 1px 1px 0 rgb(231, 119, 119),
+                 2px 2px 0 rgb(0,0 , 0);
+				 background:#1cd6d9;
+				 margin-top:50px;
+				 text-align:center;
+				 font-size:25px;
+				 cursor: pointer;
+				 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+  .parent {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 800px;
+    height: 500px;
+    padding: 0;
+    margin: 0 auto;
+	box-shadow: 0 7px 21px rgb(0,0,0,1);
+    /*background-color: #000;*/
+    overflow-x: scroll;
+    -ms-scroll-snap-type: x mandatory;
+    scroll-snap-type: x mandatory
+	
+  }
+  
+  .child {
+    position: relative;
+    margin: 0;
+    border-radius: 0;
+    scroll-snap-align: center
+  }
+  
+  .child img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover
+  }
+  
+  .child .caption {
+    position: absolute;
+    bottom: 0;
+    padding: 0;
+    height: 210px;
+    background-color: rgba(0, 0, 0, 0.5)
+  }
+  
+  .child:nth-child(1) {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%
+  }
+  
+  .child:nth-child(2) {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%
+  }
+  
+  .child:nth-child(3) {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%
+  }
+  
+  .child:nth-child(4) {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%
+  }
+  
+  .child:nth-child(5) {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%
+  }  
